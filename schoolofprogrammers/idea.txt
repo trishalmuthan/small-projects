@@ -1,0 +1,33 @@
+Address:
+- country: String
+- state: String
+- city: String
+- streetAddress: string
+- postalCode: String
+
+Person:
+- firstName: String
+- lastName: String
+- dateOfBirth: date 
+- phoneNumber: string
+
+Student
+- international: boolean
+- isPartTime(): boolean
+- isOnProbation(): boolean
+
+Professor
+- salary: float
+
+Course
+- name: String
+- code: String
+- minStudents: int
+- maxStudents: int
+- start: date
+- end: date
+- isCancelled(): boolean
+
+Enroll
+- date: date
+- grade: float
